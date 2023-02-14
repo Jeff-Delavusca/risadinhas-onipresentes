@@ -11,7 +11,7 @@ do estado do Rio Grande do Sul, a partir de 2010.
 Comandos em SQL:
 
 
-```
+```ruby
 SELECT  
   ano, 
   SUBSTR(id_municipio, 1, 6) AS id_municipio, 
