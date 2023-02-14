@@ -11,6 +11,7 @@ do estado do Rio Grande do Sul, a partir de 2010.
 Comandos em SQL:
 
 
+{
 SELECT  
   ano, 
   SUBSTR(id_municipio, 1, 6) AS id_municipio, 
@@ -23,3 +24,4 @@ AND id_municipio LIKE '43%'
 AND estagio_bd = 'Despesas Empenhadas'
 AND conta_bd in ('Saúde', 'Educação', 'Segurança Pública')
 ORDER BY ANO ASC
+}
